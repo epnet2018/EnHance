@@ -101,8 +101,7 @@ while(i<=latmax):
 			if(check_point.check_point(line[15:21],line[21:28],i,j,vinterval,linterval)):
 				eqcount+=1
 				print(line[28:33].strip())
-
-				
+		
 
 				EnergySum=EnergySum+1.5*float(line[28:33].strip())+11.8
 				calEnergy(line[1:15],1,1,1,1,1)
